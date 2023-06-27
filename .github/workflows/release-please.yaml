@@ -1,0 +1,27 @@
+name: Release Please
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - develop
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    if: github.events.pull_request.merged == true
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: release-please-action
+        uses: google-github-actions/release-please-action@v3.1.2
+        with:
+          release-type: node
+          package-name: release-please-action
+          default-branch: release
