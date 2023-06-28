@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">OK 3 Text Editor ✍</h1>
+<h1 align="center" style="font-weight: bold;">Text Editor ✍</h1>
 
 ![react](https://img.shields.io/badge/React-blue?style=flat&logo=react)
 ![Underdevelopment](https://img.shields.io/badge/GraphQL-e10098?style=flat&logo=graphql)
