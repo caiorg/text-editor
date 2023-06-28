@@ -14,13 +14,11 @@ permissions:
 jobs:
   release-please:
     runs-on: ubuntu-latest
-    if: github.events.pull_request.merged == true
+    if: github.event.pull_request.merged == true
 
     steps:
-      - uses: actions/checkout@v3
-
       - name: release-please-action
-        uses: google-github-actions/release-please-action@v3.1.2
+        uses: google-github-actions/release-please-action@v3
         with:
           release-type: node
           package-name: release-please-action
