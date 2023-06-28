@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/caiorg/text-editor/compare/v1.0.0...v1.1.0) (2023-06-28)
+
+
+### Features
+
+* atualizar README.md ([b7c0f07](https://github.com/caiorg/text-editor/commit/b7c0f076a80b605cbe4493fdf2415ba869f3fbd4))
+
 ## 1.0.0 (2023-06-28)
 
 
